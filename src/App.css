@@ -9,6 +9,16 @@ body {
 h2 {
   font-weight: 700;
 }
+.card {
+  background-color: lightgrey;
+}
+.footer {
+  background-color: var(--mainBlue);
+  height: 50px;
+}
+.footer a {
+  color: black;
+}
 .header {
   background-color: rgba(100, 149, 237, 1);
   font-family: "Noto Sans JP", sans-serif;
@@ -20,12 +30,15 @@ h2 {
   font-family: "Noto Sans JP", sans-serif;
   font-weight: 700;
 }
+#selfie {
+  height: 25%;
+}
 .topImage {
   background-image: url(https://images.pexels.com/photos/1054289/pexels-photo-1054289.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
   background-position: center;
   background-size: cover;
   font-family: "Noto Sans JP", sans-serif;
-  height: 250px;
+  height: 100vh;
   width: 100%;
 }
 .filter {
@@ -37,26 +50,19 @@ h2 {
 .filter:hover {
   opacity: 0;
 }
-content {
-  background-image: url(https://i.pinimg.com/originals/e0/f7/de/e0f7dea5fa70fcb23a5df52641a249ec.jpg);
+.title {
+  background-image: url(https://images.pexels.com/photos/1054289/pexels-photo-1054289.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
   background-position: center;
-  border-top: 15px solid var(--mainBlue);
-  display: flex;
-  flex-flow: column wrap;
   font-family: "Noto Sans JP", sans-serif;
   font-weight: 400;
 }
-content h2 {
+.title h2 {
   font-weight: 700;
-}
-.title {
-  width: 100%;
 }
 .section {
   border-left: 5px solid var(--mainBlue);
   font-family: "Noto Sans", sans-serif;
   padding-left: 15px;
-  width: 100%;
 }
 
 footer {
@@ -65,20 +71,14 @@ footer {
 }
 
 @media screen and (min-width: 641px) {
-  .topImage {
-    height: 400px;
-  }
   content {
     flex-flow: row wrap;
   }
   .section {
-    flex: 3 1 80%;
+    min-height: 80vh;
     margin: 5px;
-    width: 70%;
   }
   .title {
-    flex: 1 0 10%;
     margin: 5px;
-    width: 30%;
   }
 }
