@@ -1,4 +1,5 @@
 import React from "react";
+import selfie from "../images/profile_selfie.jpg";
 
 const AboutMe = () => {
   return (
@@ -6,12 +7,7 @@ const AboutMe = () => {
       <h2 className="col-12" id="aboutMe">
         About Me
       </h2>
-      <img
-        className="col-4"
-        id="selfie"
-        src="/images/profile_selfie.jpg"
-        alt="the web developer"
-      />
+      <img className="col-4" id="selfie" src={selfie} alt="the web developer" />
       <div className="col-7 section">
         <p className="fs-5">
           My name is Brandon Gunzel. I am a web developer from Southern

@@ -1,4 +1,9 @@
 import React from "react";
+import demo from "../images/demo.gif";
+import coffeeTinImg from "../images/coffee-tin-screencap.png";
+import dayPlanner from "../images/day planner.png";
+import PublicSquare from "../images/public_square_image.png";
+import teamProfile from "../images/windows-prompt-git-branch.gif";
 
 const Work = () => {
   return (
@@ -10,7 +15,7 @@ const Work = () => {
         <div className="card col-sm-3 m-1" style={{ width: "18rem" }}>
           <img
             alt="screenshot of project homepage"
-            src="./images/demo.gif"
+            src={demo}
             className="card-img-top"
           />
           <div className="card-body">
@@ -42,7 +47,7 @@ const Work = () => {
         <div className="card col-sm-3 m-1" style={{ width: "18rem" }}>
           <img
             alt="screenshot of project homepage"
-            src="./images/coffee-tin-screencap.png"
+            src={coffeeTinImg}
             className="card-img-top"
           />
           <div className="card-body">
@@ -75,7 +80,7 @@ const Work = () => {
         <div className="card col-sm-3 m-1" style={{ width: "18rem" }}>
           <img
             alt="screenshot of project homepage"
-            src="./images/day planner.png"
+            src={dayPlanner}
             className="card-img-top"
           />
           <div className="card-body">
@@ -105,19 +110,63 @@ const Work = () => {
         </div>
         <div className="card col-sm-3 m-1" style={{ width: "18rem" }}>
           <img
-            src="https://via.placeholder.com/250x200"
+            src={PublicSquare}
             className="card-img-top"
             alt="screenshot of project homepage"
           />
           <div className="card-body">
-            <h5 className="card-title">Project 4</h5>
+            <h5 className="card-title">Public Square</h5>
             <p className="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              A social network with public and private feeds for sharing your
+              thoughts and ideas with the world and your closest friends.
             </p>
             <div className="row gy-1">
-              <a href="..." className="btn btn-primary">
-                Go somewhere
+              <a
+                href="https://github.com/Gunzelb/public-square"
+                className="btn btn-primary"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Github Repo
+              </a>
+              <a
+                href="https://tranquil-peak-11683.herokuapp.com/"
+                className="btn btn-primary"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Deployed Project
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="card col-sm-3 m-1" style={{ width: "18rem" }}>
+          <img
+            src={teamProfile}
+            className="card-img-top"
+            alt="screenshot of project homepage"
+          />
+          <div className="card-body">
+            <h5 className="card-title">Development Team Profiler</h5>
+            <p className="card-text">
+              Generates a team page for a Development Team based on user input.
+            </p>
+            <div className="row gy-1">
+              <a
+                href="https://github.com/Gunzelb/Development_Team_Profiler"
+                className="btn btn-primary"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Github Repo
+              </a>
+              <a
+                href="https://tranquil-peak-11683.herokuapp.com/"
+                className="btn btn-primary"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Deployed Project
               </a>
             </div>
           </div>
