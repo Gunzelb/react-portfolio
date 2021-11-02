@@ -5,7 +5,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 
 function App() {
-  const [currentTab, setCurrentTab] = useState("Home");
+  const [currentTab, setCurrentTab] = useState("");
   return (
     <div className="App">
       <Header currentTab={currentTab} setCurrentTab={setCurrentTab} />

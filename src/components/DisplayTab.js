@@ -1,5 +1,9 @@
 import React from "react";
-import { AboutMe, Work, ContactMe, Resume, Splash } from ".";
+import AboutMe from "./AboutMe";
+import Work from "./Work";
+import ContactMe from "./ContactMe";
+import Resume from "./Resume";
+import Splash from "./Splash";
 
 function DisplayTab(props) {
   switch (props.currentTab) {

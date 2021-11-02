@@ -1,5 +1,5 @@
 import React from "react";
-import { Navtab } from "./Navtab";
+import Navtab from "./Navtab";
 
 const Header = (props) => {
   return (
