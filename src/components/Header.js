@@ -8,7 +8,7 @@ const Header = (props) => {
       <ul className="nav justify-content-end">
         <Navtab
           name="Home"
-          link="/"
+          link="/react-portfolio/"
           isCurrent={props.currentTab === "Home"}
           setCurrentTab={props.setCurrentTab}
         />

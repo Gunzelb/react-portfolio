@@ -1,5 +1,5 @@
 import React from "react";
-import { AboutMe, Work, ContactMe, Resume, Splash } from "../App";
+import { AboutMe, Work, ContactMe, Resume, Splash } from ".";
 
 function DisplayTab(props) {
   switch (props.currentTab) {
